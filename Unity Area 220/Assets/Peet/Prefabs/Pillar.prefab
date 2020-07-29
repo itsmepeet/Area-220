@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3540794478504438978}
   - component: {fileID: 4279454675648854033}
   - component: {fileID: 4774114207483450593}
-  - component: {fileID: 4920046988251081766}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -79,19 +78,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &4920046988251081766
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4547124244999809140}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8.2, y: 12.529907, z: 5.8261566}
-  m_Center: {x: -0.9000001, y: 6.2649536, z: -25.023228}
 --- !u!1 &8004844627712495081
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,6 +87,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6434995292745613306}
+  - component: {fileID: 673647241401951185}
   m_Layer: 0
   m_Name: Pillar
   m_TagString: Untagged
@@ -123,3 +110,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &673647241401951185
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8004844627712495081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.070602, y: 12.41172, z: 5.718048}
+  m_Center: {x: -1.0081749, y: 6.2892685, z: -25.08929}
